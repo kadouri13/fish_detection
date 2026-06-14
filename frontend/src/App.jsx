@@ -127,6 +127,14 @@ const ZONES = [
     lat:35.70, lng:-2.05, base:0.45, dist:{ar:"67 كلم",fr:"67 km",en:"67 km"}, type:"deep" },
   { id:13, name:{ar:"الحافة الشمالية",fr:"Limite Nord",en:"North Edge"},
     lat:35.75, lng:-1.65, base:0.42, dist:{ar:"70 كلم",fr:"70 km",en:"70 km"}, type:"deep" },
+  { id:14, name:{ar:"شاطئ سيدي يوشع",fr:"Plage Sidi Youchaa",en:"Sidi Youchaa Beach"},
+    lat:35.30, lng:-1.33, base:0.80, dist:{ar:"2 كلم",fr:"2 km",en:"2 km"}, type:"coastal" },
+  { id:15, name:{ar:"صخور سيدي يوشع",fr:"Récifs Sidi Youchaa",en:"Sidi Youchaa Reef"},
+    lat:35.32, lng:-1.30, base:0.72, dist:{ar:"4 كلم",fr:"4 km",en:"4 km"}, type:"coastal" },
+  { id:16, name:{ar:"بحر سيدي يوشع",fr:"Large Sidi Youchaa",en:"Sidi Youchaa Offshore"},
+    lat:35.45, lng:-1.32, base:0.65, dist:{ar:"18 كلم",fr:"18 km",en:"18 km"}, type:"mid" },
+  { id:17, name:{ar:"عمق سيدي يوشع",fr:"Profond Sidi Youchaa",en:"Sidi Youchaa Deep"},
+    lat:35.60, lng:-1.30, base:0.48, dist:{ar:"35 كلم",fr:"35 km",en:"35 km"}, type:"deep" },
 ];
 
 const MAP_BOUNDS = { latMin:34.30, latMax:35.50, lngMin:-2.25, lngMax:-1.10 };
