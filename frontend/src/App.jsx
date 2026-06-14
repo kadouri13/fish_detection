@@ -4,7 +4,7 @@ import { MessageCircle, X, Send } from "lucide-react";
 import { MapContainer, TileLayer, CircleMarker, Tooltip } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8000";// ══════════════════════════════════════════════════════
+const API_URL = import.meta.env.VITE_API_URL || "";// ══════════════════════════════════════════════════════
 //  CONSTANTS & DATA
 // ══════════════════════════════════════════════════════
 
